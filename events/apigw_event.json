@@ -1,0 +1,7 @@
+{
+  "version": "2.0",
+  "routeKey": "POST /chat",
+  "rawPath": "/chat",
+  "body": "{\"q\": \"John Smith has a fever since 09/21/2025. Should he see a doctor?\"}",
+  "isBase64Encoded": false
+}
