@@ -5,7 +5,6 @@ This is a minimal example project demonstrating a HIPAA-friendly chatbot archite
 - Amazon Bedrock (LLM inference) with masked input
 - AWS Lambda (post-process: placeholder restore)
 
-> NOTE: This is a demo. You must not send real PHI during development. Use synthetic data only.
 
 ## Features
 - Simple PHI masking (dates, first names) in `src/masker.py`
