@@ -27,17 +27,6 @@ source .venv/bin/activate  # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### Run Unit Tests
-```bash
-pytest -q
-```
-
-### Local Invoke (SAM)
-```bash
-sam build
-sam local invoke HipaaChatbotFunction --event events/apigw_event.json
-```
-
 ### Deploy (SAM)
 ```bash
 sam deploy --guided
