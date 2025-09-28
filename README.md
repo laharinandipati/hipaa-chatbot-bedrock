@@ -53,21 +53,5 @@ Follow the prompts to create a new stack and grant Bedrock access to the Lambda 
 - Consider adding VPC, KMS CMK, and CloudWatch logs policies as required by your environment.
 - For compliance, log redaction is recommended before printing any user content.
 
-## IntelliJ IDEA Import
-1. Open IntelliJ IDEA.
-2. `File -> New -> Project from Existing Sources...`
-3. Select the project folder (`hipaa-chatbot-bedrock`).
-4. If prompted, choose Python interpreter (`.venv`), or configure under `Settings -> Project -> Python Interpreter` (Install `boto3`, `pytest`).
-
-## Push to GitHub
-```bash
-git init
-git add .
-git commit -m "Initial commit: HIPAA chatbot demo"
-git branch -M main
-git remote add origin https://github.com/<your-username>/hipaa-chatbot-bedrock.git
-git push -u origin main
-```
-
 ## DISCLAIMER
 This sample is for educational purposes only. You are responsible for ensuring HIPAA compliance for your environment, data handling, and logging practices.
